@@ -1,0 +1,114 @@
+body {
+  font-family: "Hiragino Kaku Gothic ProN";
+  margin: 0;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 8px;
+  font-size: x-large;
+}
+
+p {
+  margin: 8px;
+}
+
+.top {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.lead p {
+  font-size: small;
+}
+
+.links {
+  display: flex;
+  gap: 4px;
+  font-size: small;
+  justify-content: center;
+}
+
+.links p {
+  margin: 0 4px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.about p {
+  margin: 0;
+  font-size: small;
+  text-align: justify;
+}
+
+h2 {
+  font-size: medium;
+  margin: 24px 0 12px 0;
+}
+p.title {
+  color: black;
+  margin: 0;
+}
+p.date {
+  margin: 0;
+  padding-top: 6px;
+}
+.article {
+  display: block;
+  font-size: small;
+  padding-bottom: 6px;
+}
+.article:hover {
+  background-color: rgb(247, 247, 247);
+}
+
+p.kind {
+  margin: 0;
+  font-size: small;
+  color: gray;
+  padding-top: 6px;
+}
+
+p.list {
+  margin: 0;
+  font-size: small;
+  padding-bottom: 6px;
+}
+
+p.form {
+  margin: 0;
+  font-size: small;
+  color: gray;
+  padding-top: 6px;
+}
+
+p.name {
+  margin: 0;
+  font-size: small;
+  font-weight: 600;
+  color: black;
+}
+
+p.exp {
+  margin: 0;
+  font-size: small;
+  color: black;
+  padding-bottom: 6px;
+}
+
+.work {
+  display: block;
+}
+
+.work:hover {
+  background-color: rgb(247, 247, 247);
+}
+
+footer {
+  margin-bottom: 200px;
+}
